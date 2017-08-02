@@ -1,0 +1,84 @@
+#main-cont{
+    padding: 0px;
+}
+
+.angular-google-map-container {
+    height: 700px;
+}
+
+
+.toolbar{
+    background-color: #e41115 !important;
+    color: #fff !important;
+}
+
+.toolbar h1{
+    font-weight: bold
+}
+
+
+a.logo{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+}
+.left-nav{
+    height: 500px;
+}
+
+.left-nav-label{
+    color: #c5c7c7;
+
+    font-weight: bold;
+    padding: 0;
+    /*margin-left: 5px;*/
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.left-nav-label, h2{
+        font-size: 16px;
+}
+
+.left-nav-menu-section{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.left-nav-divider{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.menu-icon{
+    color: #000;
+    font-size: 17px;
+}
+
+
+.left-nav-element{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000;
+    text-decoration: none
+}
+
+.left-nav-h3{
+    margin:0;
+    padding:0;
+    font-weight:600;
+    color: #000;
+}
+
+
+.menu-btn{
+    padding-top: 7px !important;
+}
+
+
+
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}

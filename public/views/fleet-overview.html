@@ -1,0 +1,21 @@
+<md-toolbar layout="row" layout-align="start center" class="toolbar">
+    <div flex="15" hide-gt-md>
+        <md-button aria-label="left sidenav toggle button" class="menu-btn" ng-click="toggleLeft()"><img src="../images/menu.png" width="32" height="30" ></md-button>
+    </div>
+    <div flex="70" flex-md="50" >
+        <h1 class="md-toolbar-tools">Fleet Overview</h1>
+    </div>
+</md-toolbar>
+
+<div layout-padding flex="100">
+
+    <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" bounds="map.bounds">
+        <ui-gmap-markers models="randomMarkers" events="map.markersEvents"  coords="'self'" icon="'icon'">
+            <ui-gmap-windows show="'show'">
+                <div ng-non-bindable>
+                    {{window}}
+                </div>
+            </ui-gmap-windows>
+        </ui-gmap-markers>
+    </ui-gmap-google-map>
+</div>
