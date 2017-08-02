@@ -3,24 +3,24 @@ angular.module('FleetService', []).factory('FleetService', ['$http', function($h
 
     var mapEntries = {
         gasPumps: generateMapEntries("Pump", {
-            url: "https://cdn.pixabay.com/photo/2014/03/25/16/26/gas-297117_640.png",
+            url: "../images/gas-pump.png",
             scaledSize: new google.maps.Size(19, 19)
         }),
 
         trucks: generateMapEntries("Truck", {
-            url: "https://cdn.pixabay.com/photo/2016/04/01/10/09/black-and-white-1299789_640.png",
+            url: "../images/truck.png",
             scaledSize: new google.maps.Size(19.5, 16.5)
         }),
 
 
         plants: generateMapEntries("Drilling Plant", {
-            url: "https://cdn.pixabay.com/photo/2012/04/01/19/46/oil-24281_640.png",
+            url: "../images/plant.png",
             scaledSize: new google.maps.Size(25.6, 25.2)
         }),
 
 
         trailers: generateMapEntries("Trailer", {
-            url: "https://cdn.pixabay.com/photo/2012/04/23/17/04/truck-39103_640.png",
+            url: "../images/trailer.png",
             scaledSize: new google.maps.Size(32, 16)
         })
     }
